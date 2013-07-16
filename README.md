@@ -16,16 +16,39 @@ $(".progressBar3").jqProgressBar({
 
 Settings
 =======
-<table>
-<tr><td>
-"initPercent":  (default 0) Set the initial Percent point, from where the animation begins; type: integer
-</td></tr><tr><td>
- "percent"    : (default 100), Set the final percent point; type: integer
- </td></tr><tr><td>
- "speed"      : (default 600), Set the animation speed; type: integer
- </td></tr><tr><td>
- "showText" : (default true), Show text inside the progress bar; type: boolean
- </td></tr><tr><td>
- "text"       : <code>"&nbsp;%&nbsp;"</code> text display inside the progress bar after final percentage value; type: string
- </td></tr>
- <table>
+<table class="listing">
+<tr>
+<th>Property</th>
+<th>Default</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>initPercent</td>
+<td>0</td>
+<td>integer</td>
+<td>Set the initial Percent point, from where the animation begins</td>
+</tr>
+<tr>
+<td>percent</td>
+<td>100</td>
+<td>integer</td>
+<td>Set the final percent point</td>
+</tr>
+<tr>
+<td>speed</td>
+<td>600</td>
+<td>integer</td>
+<td>Set the animation speed</td>
+</tr>
+<tr><td>showText</td>
+<td>true</td>
+<td>boolean</td>
+<td>Show text inside the progress bar</td>
+</tr>
+<tr><td>text</td>
+<td>%</td>
+<td>string</td>
+<td>Text display inside the progress bar after final percentage value</td>
+</tr>
+</table>
