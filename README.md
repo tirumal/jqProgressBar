@@ -18,14 +18,14 @@ Settings
 =======
 <table>
 <tr><td>
-"initPercent":  (default 0) Set the initial Percent point, from where the animation begins; type: integer
+"initPercent":</td><td>  (default 0) Set the initial Percent point, from where the animation begins; type: integer
 </td></tr><tr><td>
- "percent"    : (default 100), Set the final percent point; type: integer
+ "percent"    :</td><td></td><td></td><td></td><td> (default 100), Set the final percent point; type: integer
  </td></tr><tr><td>
- "speed"      : (default 600), Set the animation speed; type: integer
+ "speed"      :</td><td></td><td></td><td> (default 600), Set the animation speed; type: integer
  </td></tr><tr><td>
- "showText" : (default true), Show text inside the progress bar; type: boolean
+ "showText" :</td><td></td><td> (default true), Show text inside the progress bar; type: boolean
  </td></tr><tr><td>
- "text"       : "&nbsp;%&nbsp;" text display inside the progress bar after final percentage value; type: string
+ "text"       :</td><td> "&nbsp;%&nbsp;" text display inside the progress bar after final percentage value; type: string
  </td></tr>
  <table>
