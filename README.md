@@ -26,6 +26,6 @@ Settings
  </td></tr><tr><td>
  "showText" : (default true), Show text inside the progress bar; type: boolean
  </td></tr><tr><td>
- "text"       : "&nbsp;%&nbsp;" text display inside the progress bar after final percentage value; type: string
+ "text"       : <code>"&nbsp;%&nbsp;"</code> text display inside the progress bar after final percentage value; type: string
  </td></tr>
  <table>
