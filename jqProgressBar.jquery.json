@@ -1,0 +1,34 @@
+{
+    "name": "jqProgressBar",
+    "title": "Simple jQuery progress bar plugin",
+    "description": "Simple jQuery progress bar to show percentage increase or decrease by animating the width.",
+    "keywords": [
+        "progress bar",
+        "progress width"
+    ],
+    "version": "1.0",
+    "author": {
+        "name": "Tirumal (www.code-tricks.com)",
+        "url": "http://code-tricks.com/simple-jquery-progress-bar-plugin/"
+    },
+    "maintainers": [
+        {
+            "name": "Tirumal",
+            "email": "",
+            "url": "http://code-tricks.com/author/tirumal/"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/tirumal/jqProgressBar/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/tirumal/jqProgressBar/issues",
+    "homepage": "https://github.com/tirumal/jqProgressBar",
+    "docs": "http://code-tricks.com/simple-jquery-progress-bar-plugin/",
+    "download": "https://github.com/tirumal/jqProgressBar/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.8"
+    }
+}
