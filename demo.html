@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JQ Progress Bar - www.code-tricks.com</title>
+<style>
+body{
+  font-family: verdana;
+  font-size: 14px;
+}
+
+.progressBar{
+  height: 20px;
+  width: 200px;
+  border: 1px solid #333;
+  background: #000;
+  text-align: center;
+  color: #fff; 
+}
+
+#button{
+  cursor: pointer;
+  text-transform: uppercase;
+  background: #ddd;
+  padding: 4px;
+  border: 1px solid #aaa;
+  margin-top: 10px;
+  display: block;
+  width: 100px;
+}
+</style>
+
+
+</head>
+<body>
+  <h2>jqProgressBar</h2>
+  <div class="progressBar1 progressBar">
+     
+  </div>
+  
+  <div class="progressBar2 progressBar">
+     
+  </div>
+  
+  <div class="progressBar3 progressBar">
+     
+  </div>
+  
+  
+  <a id="button">Click here</a>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>
+  //Demo Code Begins
+$(function(){
+  $("#button").one("click", function() {
+  
+    //progressBar1
+    $(".progressBar1").jqProgressBar({
+      "initPercent" : 100,
+      "percent" : 20,
+      "speed"   : 1000,
+      "showText": true 
+    });
+
+    //progressBar2
+    $(".progressBar2").jqProgressBar({
+      "percent" : 40,
+      "speed"   : 300,
+      "showText": true
+    });
+
+    //progressBar3
+    $(".progressBar3").jqProgressBar({
+      "percent" : 100,
+      "speed"   : 300, 
+      "showText": true
+    });
+
+    //progressBar3 with Click event
+    $(".progressBar3").click(function(evt){
+    $(".progressBar3").jqProgressBar({
+      "percent" : 80,
+      "speed"   : 300,
+      "showText": true
+    }); 
+    });
+  });
+});
+//Demo Code Ends
+  </script>
+</body>
+</html>
