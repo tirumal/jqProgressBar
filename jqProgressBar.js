@@ -44,6 +44,8 @@ License: MIT License
         } 
       }); 
       
+      obj.attr("data-progress", settings.percent);
+      
       
     });
   };
