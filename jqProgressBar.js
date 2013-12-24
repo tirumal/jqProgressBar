@@ -33,7 +33,7 @@ License: MIT License
         "width" : settings.initPercent * currentWidth / 100 + "px"
       }).animate({
         width : progressBarWidth    
-      }, settings.speed, function(){
+      }, settings.speed, "linear", function(){
         obj.css({
           "width" : progressBarWidth + "px"
         });
